@@ -1,0 +1,30 @@
+ THE NAME LIST IS cable.nml
+ Use spatially-specific soil properties;          360         150
+           0
+           0
+ When choosing spatially-specific soil properties,
+ snow-free albedo is also overwritten by this data set.
+ Reading CABLE_PFTPARM namelist...
+ Reading CABLE_SOILPARM namelist...
+ Total number of patches (countPatch):            1
+ iveg           1           5
+ patchfrac           1   1.000000    
+  Could neither find restart file ./
+  nor ./
+  Pre-loaded default initialisations are used.
+ Reading CABLE_PFTPARM namelist...
+ Reading CABLE_SOILPARM namelist...
+ Checking parameter ranges
+ 
+ time-space-averaged energy & water balances
+ Ebal_tot[Wm-2], Wbal_tot[mm per timestep]  2.0985897E-07  4.3669231E-11
+ time-space-averaged latent heat and net photosynthesis
+ sum_fe[Wm-2], sum_fpn[umol/m2/s]   22.0407855972767     
+ -2.646150705312821E-006
+ 
+ NB. Offline-serial runs spinup cycles:           1
+ Internal check shows in this version new_sumbal != trunk sumbal
+ Writing new_sumbal to the file:new_sumbal
+ setting SPINON -> FALSE           0           1
+ Finished.    69.83094      seconds needed for year
+ Finished.    69.84220      seconds needed for       122736  hours
